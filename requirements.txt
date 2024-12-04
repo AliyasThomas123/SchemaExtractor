@@ -1,0 +1,14 @@
+pdfplumber
+pydantic
+transformers
+tensorflow
+torch 
+torchvision 
+torchaudio
+tf-keras
+streamlit
+langchain
+langchain_community
+langchain_core
+langchain-ollama
+ollama

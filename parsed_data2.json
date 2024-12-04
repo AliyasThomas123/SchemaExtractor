@@ -1,0 +1,54 @@
+{
+    "extraction": [
+        {
+            "header": {
+                "ship_to": {
+                    "name": "John Doe",
+                    "address1": "123 Main St",
+                    "address2": null,
+                    "address3": null,
+                    "city": null,
+                    "state": "CA",
+                    "country": null,
+                    "country_code": null,
+                    "zip": "90210"
+                },
+                "bill_to": {
+                    "name": "Jane Smith",
+                    "address1": "456 Elm St",
+                    "address2": null,
+                    "address3": null,
+                    "city": "Springfield",
+                    "state": "IL",
+                    "country": null,
+                    "country_code": null,
+                    "zip": "62704"
+                },
+                "buyer_contact": {
+                    "name": "John Buyer",
+                    "email": null,
+                    "contact_number": "555-1234"
+                },
+                "shipping_contact": {
+                    "name": "Jane Shipper",
+                    "email": null,
+                    "contact_number": "555-5678"
+                },
+                "job_number": "12345",
+                "date_ordered": "2024-08-08",
+                "delivery_date": "2024-08-15",
+                "shipping_instructions": null,
+                "notes": null
+            },
+            "line_items": [
+                {
+                    "line_no": "1",
+                    "quantity": 10,
+                    "part_numbers": "ABC123",
+                    "product_description": "Sample Product",
+                    "spell_corrected_product_description": "Sample Product"
+                }
+            ]
+        }
+    ]
+}
