@@ -1,6 +1,6 @@
 from hug_face import PDFExtractor ,process_header ,process_line_items ,Extraction
 from pydanto import extract_text_from_pdf , process_data
-from hug2 import extract_using_llm
+
 import streamlit as st
 import json
 
