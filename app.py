@@ -8,7 +8,7 @@ def main():
     st.title("PDF Data Extraction Tool")
 
    
-    method = st.selectbox("Choose the method for extraction:", ["LLM Tools", "Pydantic"])
+    method = st.selectbox("Choose the method for extraction:", ["Pydantic"])
 
  
     uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
@@ -57,7 +57,7 @@ def main():
     st.json(schema)
 
     if uploaded_file is not None:
-        if method == "LLM Tools":
+        if method == "Pydantic":
             text = PDFExtractor.extract_text_from_pdf(uploaded_file)
             sections = PDFExtractor.extract_sections(text)
             customer_info = sections["customer_info"]
